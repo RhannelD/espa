@@ -1,0 +1,32 @@
+*{
+	font: "Helvetica";
+}
+
+html,body {
+ 	height: 100%;
+}
+
+.background{
+	background-image: url('../img/bg/batstateu-campus.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	min-height: 700px;
+}
+
+.bsu-logo{
+	height: 80px;
+	width: 80px;
+}
+
+.fill {
+  	height: 100%;
+}
+
+.border-rounded{
+	border-radius: 15px;
+}
+
+.form_bg{
+	min-height: 450px;
+}

@@ -1,0 +1,158 @@
+/*Responsive Menu*/
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.ui-datepicker-calendar {
+   display: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/*------------------------------------------------------*/
+
+#usericon{
+  height: 50px;
+}
+
+.top-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+.icons{
+  text-align: center;
+}
+
+.top-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.top-left-icon{
+  text-align: center;
+}
+
+.top-right-icon{
+  align-items: center;
+  border-radius: 100%;
+}
+
+.tabs{
+  font-weight: bold;
+}
+
+.searchbar{
+  padding-top: 10px;
+}
+
+.searchbar-icon{
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.modal { 
+  overflow: auto !important; 
+}
+
+.bg-lightgreen{
+  background-color: #D4EDDA;
+}
+
+.logo_edit{
+  height: 40px;
+  width: 40px;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+.dept_add_logo{
+  height: 70px;
+  width: 70px;
+}
+
+@media (max-width: 1024px) {
+  .title-batstateu{
+    font-size: 12px;
+  }
+
+  .title-department{
+    font-size: 9px;
+  }
+
+  .top-icon{
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-batstateu{
+    font-size: 11px;
+  }
+
+  .title-department{
+    font-size: 10px;
+  }
+
+  .top-icon{
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-batstateu{
+    font-size: 9px;
+  }
+
+  .title-department{
+    font-size: 7px;
+  }
+
+  .top-icon{
+    height: 40px;
+    width: 40px;
+  }
+}
